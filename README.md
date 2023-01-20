@@ -27,7 +27,7 @@ replace the following stratum url and userName, password is same as userName.
 you can also change threads count according to your cpu cores.
 
 ```
-./minerd -o stratum+tcp://mine.metasv.com:8654 -a sha256d -O userName:userName -D -P --threads=4
+./minerd -o stratum+tcp://mine.mvcpool.com:6666 -a sha256d -O userName:userName -D -P --threads=4
 ```
 
 Asic miner is also the same, configure your stratum url and userName, then start mining
