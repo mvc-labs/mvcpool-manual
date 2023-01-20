@@ -4,7 +4,12 @@ How to use mvcpool to mine mvc coins
 ## Testnet
 
 ### Register pool account
+
+Testnet:
 https://console-testnet.mvcpool.com/
+
+Mainnet:
+https://console.mvcpool.com/
 
 Register and login your account first, keep your password safe.
 
