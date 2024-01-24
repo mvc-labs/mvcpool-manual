@@ -2,7 +2,7 @@
 
 Welcome to MvcPool.com
 
-MvcPool is a mvc specialized mining pool supported by founding members of mvclabs. It mines mvc only and fully optimized to fit the increasing transaction processing demand of mvc network.
+MvcPool is an MVC-specialized mining pool supported by the founding members of MVCLabs. It exclusively mines MVC and is fully optimized to meet the increasing transaction processing demands of the MVC network.
 
 ## Pool Attributes
 
@@ -41,7 +41,7 @@ Register and login your account first, keep your password safe.
 
 ### Connect To The Pool
 
-Use the connection url , the stratum userName and password to connect to the pool, If successfully connected, you should see your hashrate displayed within 5 min.
+Use the connection URL, the stratum username, and password to connect to the pool. If successfully connected, you should see your hashrate displayed within 5 minutes.
 
 ## FAQ
 
@@ -51,63 +51,56 @@ Use the connection url , the stratum userName and password to connect to the poo
 
 https://medium.com/luxor/mining-pool-payment-methods-pps-vs-pplns-ac699f44149f
 
-Pay Per Last N Share or commonly known as PPLNS is another popular payment method, which offers payment to miners as a % of shares they contribute to the total shares (N).
+Pay Per Last N Share (PPLNS) is another popular payment method. It offers payment to miners as a percentage of shares they contribute to the total shares (N).
 
 #### Why I cannot see my hashrate
 
-Your hash rate is calculated by how many shares you submitted in the past five minutes window. If your hash rate is too low to find a share in 5mins, you may not see your hashrate.
-
-If you hashrate is enough, please confirm your rejection rate. Normally valid shares do not get rejected, if it keeps rejected, please stop using and contact the team.
+Your hash rate is calculated based on how many shares you submitted in the past five minutes. If your hash rate is too low to find a share in 5 minutes, you may not see your hashrate.
+If your hashrate is enough, please confirm your rejection rate. Normally, valid shares do not get rejected. If it keeps getting rejected, please stop using and contact the team.
 
 #### Why MvcPool hash is higher than NetworkHash
 
-The pool hash and user hash are real time calculated(5min window), while the networkHash is an average of the last day. So burst pool hash can surpass network hash.
-
-Real time network hash cannot be calculated, it can only be estimated by moving average of last blocks.
+The pool hash and user hash are calculated in real-time (5-minute window), while the networkHash is an average of the last day. Burst pool hash can surpass network hash.
+Real-time network hash cannot be calculated; it can only be estimated by a moving average of the last blocks.
 
 #### Why my payout takes 100 confirmation to mature
 
-Your payout comes from real founded block coinbase reward. Coinbase reward takes 100 confirmation to be spendable, that is a common feature of Bitcoin like blockchains.(same logic to BTC,BCH,BSV)
-
-After it reaches 100 confirmation, your payout will be sent to your pool wallet instantly, you can withdraw that.
+Your payout comes from the real-founded block coinbase reward. Coinbase reward takes 100 confirmations to be spendable, a common feature in Bitcoin-like blockchains (same logic as BTC, BCH, BSV). After reaching 100 confirmations, your payout will be sent to your pool wallet instantly, and you can withdraw it.
 
 #### Do you support Asicboost
 
-Yes we support asicboost, and recommend miners to activate it. It will increase ROI by around 20%.
+Yes, we support AsicBoost and recommend miners to activate it. It can increase ROI by around 20%.
 
 ### Wallet Related
 
 #### Why your pool have a wallet integrated
 
-Because of the PPLNS nature, It's easier to manage and distribute rewards by user account. This wallet address will not change, it's bounded to your account.
+Due to the nature of PPLNS, it's easier to manage and distribute rewards by user account. This wallet address will not change; it's bound to your account.
 
 #### What if I lost my password
 
-Contact the team, use your registered email address to recover.
+Contact the team using your registered email address to recover.
 
 
 #### Can I use MVCPool wallet address to receive private mining coinbase reward
 
-No, we suggest not. Because the wallet is not designed to receive coinbase from private mining, if you do that, your wallet will be unspentable until your private coinbase get 100 confirmations.
+No, we suggest not doing so. The wallet is not designed to receive coinbase from private mining. If you do that, your wallet will be unspendable until your private coinbase gets 100 confirmations.
 
 ### Team and Contact
 
 #### Who maintains this pool
 
-MVC infrastructure team maintains the pool, including daily operation, pool development, custom support.
+The MVC infrastructure team maintains the pool, handling daily operations, pool development, and customer support.
 
 #### Where is the team
 
-The team is mainly located in Tokyo Japan. Some of the members work globally.
+The team is mainly located in Tokyo, Japan, with some members working globally.
 
 #### How does the pool profit
 
-We take mining fees to maintain the pool. To cover costs like development, cloud computing and operation.
-
-We also initiated a draft to lower down the fee to zero in order to benefit all mvc miners. The cost will be covered by MVC treasury as infrastructure investment. The draft will be open discussed and voted after dao established. 
+We take mining fees to maintain the pool, covering costs like development, cloud computing, and operations. We've also initiated a draft to lower the fee to zero to benefit all MVC miners. The cost will be covered by MVC treasury as infrastructure investment. The draft will be openly discussed and voted on after DAO establishment.
 
 #### How to Contact the team
 
-Join our discord: https://discord.gg/3tavfAKg
-
-Find MvcPool channel and raise your questions. Your request will be responded asap.
+Join our Discord: https://discord.gg/3tavfAKg. 
+Find the MvcPool channel and raise your questions. Your request will be responded to as soon as possible.
