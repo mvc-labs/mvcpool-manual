@@ -58,10 +58,23 @@ Pay Per Last N Share (PPLNS) is another popular payment method. It offers paymen
 Your hash rate is calculated based on how many shares you submitted in the past five minutes. If your hash rate is too low to find a share in 5 minutes, you may not see your hashrate.
 If your hashrate is enough, please confirm your rejection rate. Normally, valid shares do not get rejected. If it keeps getting rejected, please stop using and contact the team.
 
+#### Minimum Hashrate Required
+
+If your hashrate is not sufficient to submit even 1 share, you will not receive a reward due to the low hashrate. To ensure a steady reward, the recommended minimum is at least 1 PH/s.
+
 #### Why MvcPool hash is higher than NetworkHash
 
 The pool hash and user hash are calculated in real-time (5-minute window), while the networkHash is an average of the last day. Burst pool hash can surpass network hash.
 Real-time network hash cannot be calculated; it can only be estimated by a moving average of the last blocks.
+
+#### How to register
+Open the website, click register here:
+<img width="338" alt="image" src="https://github.com/mvc-labs/mvcpool-manual/assets/41569443/476bfd42-5741-462e-a9ad-ac7fa711e204">
+Then enter your mail address and password to register:
+<img width="414" alt="image" src="https://github.com/mvc-labs/mvcpool-manual/assets/41569443/5f84a1b3-3501-424b-bdaf-31af409f01b4">
+Make sure this mail address is yours, you can use this address to recover your account in the future.
+
+
 
 #### Why my payout takes 100 confirmation to mature
 
