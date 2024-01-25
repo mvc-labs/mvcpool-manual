@@ -70,8 +70,10 @@ Real-time network hash cannot be calculated; it can only be estimated by a movin
 #### How to register
 Open the website, click register here:
 <img width="338" alt="image" src="https://github.com/mvc-labs/mvcpool-manual/assets/41569443/476bfd42-5741-462e-a9ad-ac7fa711e204">
+
 Then enter your mail address and password to register:
 <img width="414" alt="image" src="https://github.com/mvc-labs/mvcpool-manual/assets/41569443/5f84a1b3-3501-424b-bdaf-31af409f01b4">
+
 Make sure this mail address is yours, you can use this address to recover your account in the future.
 
 
