@@ -16,7 +16,7 @@ MvcPool is an MVC-specialized mining pool supported by the founding members of M
 
 **Mature Requirement** : 100 Confirmations
 
-**Fee Rate** : 2% Block rewards
+**Fee Rate** : 1% Block rewards
 
 **AsicBoost** : Supported
 
