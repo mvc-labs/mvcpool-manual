@@ -83,6 +83,12 @@ Make sure this mail address is yours, you can use this address to recover your a
 
 Your payout comes from the real-founded block coinbase reward. Coinbase reward takes 100 confirmations to be spendable, a common feature in Bitcoin-like blockchains (same logic as BTC, BCH, BSV). After reaching 100 confirmations, your payout will be sent to your pool wallet instantly, and you can withdraw it.
 
+#### Why my payout has a state of orphaned
+
+Orphaned blocks occur when two mining pools simultaneously discover a valid block. In such instances, one of the blocks becomes orphaned. If the orphaned block is associated with Mvcpool, participants will not receive compensation for that specific block, as the block reward rightfully belongs to the other pool.
+
+It is noteworthy that orphaned blocks are a common occurrence across all mining pools. However, the likelihood of such events can be mitigated through increased investments in node connections and improved node performance. Strengthening the connections between mining pools contributes to a reduction in the overall orphan rate within the network. Your understanding and cooperation in this matter are appreciated.
+
 #### Do you support Asicboost
 
 Yes, we support AsicBoost and recommend miners to activate it. It can increase ROI by around 20%.
